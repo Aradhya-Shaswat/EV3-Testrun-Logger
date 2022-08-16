@@ -16,7 +16,7 @@ def main():
     print(heading)
     isPassed = False
 
-    with open("./Finale_Practise_1/rn.txt", "r") as f:
+    with open("./rn.txt", "r") as f:
         last_line = f.readlines()[-1]   
 
     time.sleep(1)
@@ -51,7 +51,7 @@ def main():
             file.write("\n")
             file.write(ts_no)
 
-        with open("./Finale_Practise_1/records.txt", 'a') as file1:
+        with open("./records.txt", 'a') as file1:
 
             time_to_complete = float(
                 input("Time for Completion of the Task: "))
@@ -82,11 +82,11 @@ def main():
                 time.sleep(2)
 
     elif isPassed == False:
-        with open("./Finale_Practise_1/rn.txt", "a") as file:
+        with open("./rn.txt", "a") as file:
             file.write("\n")
             file.write(ts_no)
 
-        with open("./Finale_Practise_1/records.txt", 'a') as file1:
+        with open("./records.txt", 'a') as file1:
             file1.write("\n")
             file1.write("Test No: " + ts_no + " | " +
                         "Test Failed" + " | " + "Reason: " + ask)
