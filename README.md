@@ -7,4 +7,4 @@ Delete the **First** Line of the file ``records.txt`` and ``rn.txt``
 Run The Main.py File
 
 
-**If there are any Bugs then Contact me on => ``Arsh_DEV#7525`` on Discord**
+**If there are any Bugs then Contact me on => ``trg.dev`` on Discord**
